@@ -1,0 +1,17 @@
+Source: libclass-tiny-perl
+Section: perl
+Priority: optional
+Maintainer: Dan Holm <dholm@>
+Build-Depends: debhelper (>= 9.20120312)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Class-Tiny
+
+Package: libclass-tiny-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Minimalist class construction
+ Class::Tiny offers a minimalist class construction kit in around 120 lines of
+ code. Here is a list of features:
+ .
+ This description was automagically extracted from the module by dh-make-perl.
